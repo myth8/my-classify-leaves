@@ -1,0 +1,21 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+<head></head>
+<body>
+    <script src="jquery.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="JsCode.js"></script>
+    <br /><br /> <br /><br />
+
+    <div align="center">
+       <form action="/upload" method="post" enctype="multipart/form-data">
+        <input id="num_img" type="file" name="file">
+       </form>
+        <br /><br />
+        <button onclick="javascript:UploadPic();return false;">Upload to Server</button>
+        <br /><br /><br /><br />
+        Result:
+        <span id="result"></span>
+    </div>
+</body>
+</html>
